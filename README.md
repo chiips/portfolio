@@ -1,29 +1,7 @@
-# portfolio
+# Portfolio
 
-## Project setup
-```
-npm install
-```
+Portfolio site repository.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# Licence
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This code is licensed under the MIT License.
