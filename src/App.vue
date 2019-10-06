@@ -1,12 +1,51 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+    <div class="navbar" role="navigation" aria-label="main navigation">
+
+      <div class="navbar-brand">
+        <div @click="closeMenu()">
+          <router-link to="/" class="navbar-item" >Christopher Galano</router-link>
+        </div>
+
+        <div role="button" v-bind:class="[navbarBurger, isActive ? 'is-active' : '']" aria-label="menu" aria-expanded="false" data-target="navMenu" @click="toggleMenu()">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </div>
+      </div>
+
+      <div id="navMenu" v-bind:class="[navbarMenu, isActive ? 'is-active' : '']" @click="closeMenu()">
+        <div class="navbar-end">
+          <router-link to="/" class="navbar-item is-tab">Home</router-link>
+          <router-link to="/about" class="navbar-item is-tab">About</router-link>
+          <router-link to="/contact" class="navbar-item is-tab">Contact</router-link>
+        </div>
+      </div>
     </div>
+
     <router-view/>
   </div>
 </template>
+
+<script>
+export default {
+  data: function () {
+    return {
+      navbarBurger: 'navbar-burger burger',
+      navbarMenu: 'navbar-menu',
+      isActive: false
+    }
+  },
+  methods: {
+    toggleMenu () {
+      this.isActive = !this.isActive
+    },
+    closeMenu () {
+      this.isActive = false
+    }
+  }
+}
+</script>
 
 <style lang="scss">
 #app {
