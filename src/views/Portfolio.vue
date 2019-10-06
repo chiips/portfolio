@@ -1,6 +1,8 @@
 <template>
   <div>
     <h1 class="is-size-3">Portfolio</h1>
+    <a href="https://github.com/chiips/portfolio" target="_blank">Github</a>
+   <br>
    <br>
     <div class="columns">
     <div class="column is-half is-offset-one-quarter has-text-left">

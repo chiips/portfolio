@@ -3,6 +3,7 @@
     <h1 class="is-size-3">Password Generator</h1>
     <a href="https://github.com/chiips/password-generator" target="_blank">Github</a>
     <br>
+    <br>
     <div class="columns">
     <div class="column is-half is-offset-one-quarter has-text-left">
       <p><b>Description: </b>Password Generator generates cryptographically secure passwords on your local computer.</p>
