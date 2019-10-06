@@ -49,6 +49,12 @@ export default new Router({
       name: 'portfolio',
 
       component: () => import('./views/Portfolio.vue')
+    },
+    {
+      path: '*', // should go at end
+      name: 'catch-all',
+      component: () => import('./views/NotFound.vue'),
+      meta: { public: true }
     }
   ]
 })

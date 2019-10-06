@@ -4,6 +4,8 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
 
 // Set your brand colors
+$navy: rgb(21, 54, 116);
+$blue:  rgb(28, 104, 218);
 $purple: #8A4D76;
 $pink: #FA7C91;
 $brown: #454640;
@@ -15,8 +17,8 @@ $beige-lightest: rgba(239, 240, 235, 0.5);
 $family-sans-serif: "Nunito", sans-serif;
 $grey-dark: $brown;
 $grey-light: $beige-light;
-$primary: $purple;
-$link: $pink;
+$primary: $navy;
+$link: $blue;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 

@@ -4,7 +4,7 @@
 
       <div class="navbar-brand">
         <div @click="closeMenu()">
-          <router-link to="/" class="navbar-item" >Christopher Galano</router-link>
+          <router-link to="/" class="navbar-item is-size-4" >Christopher Galano</router-link>
         </div>
 
         <div role="button" v-bind:class="[navbarBurger, isActive ? 'is-active' : '']" aria-label="menu" aria-expanded="false" data-target="navMenu" @click="toggleMenu()">
@@ -23,7 +23,7 @@
       </div>
     </div>
 
-    <router-view/>
+    <router-view class="content"/>
   </div>
 </template>
 
@@ -57,12 +57,23 @@ export default {
 }
 #nav {
   padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+  // a {
+  //   font-weight: bold;
+  //   color: #2c3e50;
+  //   &.router-link-exact-active {
+  //     color: #42b983;
+  //   }
+  // }
 }
+
+.content {
+
+  padding: 2rem;
+
+}
+
+img {
+  border: 1px solid #454640;
+}
+
 </style>

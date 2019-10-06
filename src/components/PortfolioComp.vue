@@ -1,24 +1,12 @@
 <template>
-  <div>
-    <h1>Portfolio</h1>
-    <a href="#">Website</a> |
-    <router-link :to="{ name: 'portfolio' }">Read More</router-link>
+    <div class="box">
+    <h1 class="is-size-4">Portfolio</h1>
+    <router-link :to="{ name: 'portfolio' }">Learn More</router-link>
     <br>
-
-    <iframe :src="url" width="500" height="600"></iframe>
+    <router-link :to="{ name: 'portfolio' }"><img src="../assets/portfolio.png"/></router-link>
 
   </div>
 </template>
-
-<script>
-export default {
-  data: function () {
-    return {
-      url: '/'
-    }
-  }
-}
-</script>
 
 <style scoped>
 
