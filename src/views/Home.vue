@@ -1,17 +1,40 @@
 <template>
+
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <div class="columns">
+    <div class="column">
+      <PetterComp/>
+    </div>
+    <div class="column">
+      <SpellCasterComp/>
+    </div>
   </div>
+
+    <div class="columns">
+      <div class="column">
+        <PasswordGeneratorComp/>
+      </div>
+      <div class="column">
+        <PortfolioComp/>
+      </div>
+    </div>
+</div>
+
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
-import HelloWorld from '@/components/HelloWorld.vue' // @ is an alias to /src
+import PetterComp from '@/components/PetterComp.vue'
+import SpellCasterComp from '@/components/SpellCasterComp.vue'
+import PasswordGeneratorComp from '@/components/PasswordGeneratorComp.vue'
+import PortfolioComp from '@/components/PortfolioComp.vue'
 
 @Component({
   components: {
-    HelloWorld
+    PetterComp,
+    SpellCasterComp,
+    PasswordGeneratorComp,
+    PortfolioComp
   }
 })
 export default class Home extends Vue {}
