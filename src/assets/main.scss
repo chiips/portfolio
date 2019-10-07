@@ -42,6 +42,10 @@ $input-disabled-background-color: $beige-lightest;
 // Navbar
 $navbar-background-color: $beige-lighter;
 
+//Footer
+$footer-background-color: $beige-lighter;
+$footer-padding: 0.25rem;
+
 
 // Import only what you need from Bulma
 @import "~bulma/sass/utilities/_all.sass";
@@ -56,6 +60,7 @@ $navbar-background-color: $beige-lighter;
 @import "~bulma/sass/components/tabs.sass";
 @import "~bulma/sass/layout/hero.sass";
 @import "~bulma/sass/layout/section.sass";
+@import "~bulma/sass/layout/footer.sass";
 @import "~bulma/sass/grid/columns.sass";
 
 //or all
