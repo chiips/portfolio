@@ -11,7 +11,7 @@
       <p><b>Back-end: </b>Multi-Page Application written in <b>Go</b>.</p>
       <p><b>Front-end: </b>Web pages styled with <b>HTML</b>, <b>CSS</b>, <b>Javascript</b>, and <b>jQuery</b>.</p>
       <p><b>Data: </b> Resource and session storage in <b>PostgreSQL</b>.</p>
-      <p><b>Deployment: </b> Deployed on <b>Heroku</b></p>
+      <p><b>Deployment: </b> Deployed on <b>Heroku</b>.</p>
       <br>
       <p><b>Note: </b> Do not read spells aloud in case they work.</p>
       <br>
