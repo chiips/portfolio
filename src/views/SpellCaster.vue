@@ -9,7 +9,7 @@
       <p><b>Description: </b>SpellCaster is social media for wizards and witches. Share your spells and find new ones.</p>
       <br>
       <p><b>Back-end: </b>Multi-Page Application written in <b>Go</b>.</p>
-      <p><b>Front-end: </b>Web pages styled with <b>HTML</b>, <b>CSS</b>, and <b>Javascript</b>.</p>
+      <p><b>Front-end: </b>Web pages styled with <b>HTML</b>, <b>CSS</b>, <b>Javascript</b>, and <b>jQuery</b>.</p>
       <p><b>Data: </b> Resource and session storage in <b>PostgreSQL</b>.</p>
       <p><b>Deployment: </b> Deployed on <b>Heroku</b></p>
       <br>
