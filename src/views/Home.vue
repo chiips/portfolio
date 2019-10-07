@@ -1,6 +1,8 @@
 <template>
 
   <div class="home">
+    <h1 class="is-size-2">Projects</h1>
+    <br>
   <div class="columns">
     <div class="column">
       <PetterComp/>
