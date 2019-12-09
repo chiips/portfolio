@@ -39,6 +39,12 @@ export default new Router({
       component: () => import('./views/SpellCaster.vue')
     },
     {
+      path: '/dashboard',
+      name: 'dashboard',
+
+      component: () => import('./views/Dashboard.vue')
+    },
+    {
       path: '/password-generator',
       name: 'password-generator',
 

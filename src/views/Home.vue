@@ -8,6 +8,9 @@
       <PetterComp/>
     </div>
     <div class="column">
+      <DashboardComp/>
+    </div>
+    <div class="column">
       <SpellCasterComp/>
     </div>
   </div>
@@ -26,6 +29,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
+import DashboardComp from '@/components/DashboardComp.vue'
 import PetterComp from '@/components/PetterComp.vue'
 import SpellCasterComp from '@/components/SpellCasterComp.vue'
 import PasswordGeneratorComp from '@/components/PasswordGeneratorComp.vue'
@@ -35,6 +39,7 @@ import PortfolioComp from '@/components/PortfolioComp.vue'
   components: {
     PetterComp,
     SpellCasterComp,
+    DashboardComp,
     PasswordGeneratorComp,
     PortfolioComp
   }

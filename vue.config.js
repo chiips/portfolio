@@ -16,4 +16,4 @@ module.exports = {
       new CompressionPlugin({ cache: true })
     ]
   }
-};
+}
