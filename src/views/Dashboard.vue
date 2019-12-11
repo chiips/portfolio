@@ -10,7 +10,7 @@
       <p><b>Description: </b>The Drone Dashboard is a live dashboard for tracking the activity of drones. Sample drones are created on start, and visitors can add new drones, specifying their starting coordinates, which will then begin to travel on their own. A map presents the location of the drones, and a table presents each drone's details: ID, latitude, longitude, speed, and stationary status. The rows of stationary drones will be highlighted red.</p>
       <br>
       <p><b>Back-end: </b>RESTful JSON API written in <b>Go</b> using <b>Websockets</b>.</p>
-      <p><b>Front-end: </b><b>HTML5</b>, the <b>Bootstrap CSS Framework</b>, and <b>Vanilla Javascript</b>.</p>
+      <p><b>Front-end: </b><b>HTML5</b>, the <b>Bootstrap CSS Framework</b>, <b>Vanilla Javascript</b>, and the <b>Google Maps Javascript API</b>.</p>
       <p><b>Data: </b>Resource storage using in-memory map.</p>
       <p><b>Deployment: </b>Deployed with <b>Docker</b> and <b>Kubernetes</b> on <b>Google Cloud Platform</b>.</p>
       <!-- <br>
