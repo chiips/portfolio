@@ -20,6 +20,9 @@
         <PasswordGeneratorComp/>
       </div>
       <div class="column">
+        <CountdownComp/>
+      </div>
+      <div class="column">
         <PortfolioComp/>
       </div>
     </div>
@@ -29,6 +32,7 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator'
+import CountdownComp from '@/components/CountdownComp.vue'
 import DashboardComp from '@/components/DashboardComp.vue'
 import PetterComp from '@/components/PetterComp.vue'
 import SpellCasterComp from '@/components/SpellCasterComp.vue'
@@ -37,6 +41,7 @@ import PortfolioComp from '@/components/PortfolioComp.vue'
 
 @Component({
   components: {
+    CountdownComp,
     PetterComp,
     SpellCasterComp,
     DashboardComp,

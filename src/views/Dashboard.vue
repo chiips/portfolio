@@ -13,8 +13,7 @@
       <p><b>Front-end: </b><b>HTML5</b>, the <b>Bootstrap CSS Framework</b>, <b>Vanilla Javascript</b>, and the <b>Google Maps Javascript API</b>.</p>
       <p><b>Data: </b>Resource storage using in-memory map.</p>
       <p><b>Deployment: </b>Deployed with <b>Docker</b> and <b>Kubernetes</b> on <b>Google Cloud Platform</b>.</p>
-      <!-- <br>
-      <p><b>Note: </b> The Github link directs to a web snippets repository highlighting the structure of the application and key code examples.</p> -->
+
       <br>
     </div>
     </div>

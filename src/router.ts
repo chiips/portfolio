@@ -45,6 +45,12 @@ export default new Router({
       component: () => import('./views/Dashboard.vue')
     },
     {
+      path: '/countdown',
+      name: 'countdown',
+
+      component: () => import('./views/Countdown.vue')
+    },
+    {
       path: '/password-generator',
       name: 'password-generator',
 
