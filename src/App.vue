@@ -30,7 +30,7 @@
     <footer class="footer">
       <div class="content has-text-center">
         <p>
-          Copyright (c) 2019 Christopher Galano
+          Copyright (c) 2020 Christopher Galano
         </p>
       </div>
     </footer>
