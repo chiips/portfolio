@@ -29,7 +29,6 @@ export default new Router({
     {
       path: '/petter',
       name: 'petter',
-
       component: () => import('./views/Petter.vue')
     },
     {

@@ -5,7 +5,7 @@
     <a href="https://github.com/chiips/snippets" target="_blank">Github</a> |
     <router-link :to="{ name: 'petter' }">Learn More</router-link>
     <br>
-    <router-link :to="{ name: 'petter' }"><img src="../assets/petter.png"/></router-link>
+    <router-link :to="{ name: 'petter' }"><img src="../assets/petter/home.png"/></router-link>
 
   </div>
 </template>

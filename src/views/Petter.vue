@@ -18,11 +18,35 @@
       <br>
     </div>
     </div>
-
-    <a href="https://galano.co" target="_blank"><img src="../assets/petter.png"/></a>
+    <carousel perPage="1" navigationEnabled="true" navigationClickTargetSize="1" paginationActiveColor="#8A4D76" paginationColor="#FA7C91">
+    <slide>
+        <a href="https://galano.co" target="_blank"><img src="../assets/petter/home.png"/></a>
+    </slide>
+    <slide>
+        <a href="https://galano.co" target="_blank"><img src="../assets/petter/search.png"/></a>
+    </slide>
+    <slide>
+        <a href="https://galano.co" target="_blank"><img src="../assets/petter/submission.png"/></a>
+    </slide>
+    <slide>
+        <a href="https://galano.co" target="_blank"><img src="../assets/petter/profile.png"/></a>
+    </slide>
+  </carousel>
 
   </div>
 </template>
+
+<script>
+import { Carousel, Slide } from 'vue-carousel'
+
+export default {
+  name: 'petter',
+  components: {
+    Carousel,
+    Slide
+  }
+}
+</script>
 
 <style scoped>
 
