@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="is-size-3">Countdown Task Manager</h1>
-    <a href="https://countdown-task-manager.netlify.com/" target="_blank">Website</a> |
+    <a href="https://galano.co" target="_blank">Website</a> |
     <a href="https://github.com/chiips/countdown-task-manager" target="_blank">Github</a>
     <br>
     <br>
@@ -16,7 +16,7 @@
     </div>
     </div>
 
-    <a href="https://countdown-task-manager.netlify.com/" target="_blank"><img src="../assets/countdown.png"/></a>
+    <a href="https://galano.co" target="_blank"><img src="../assets/countdown.png"/></a>
 
   </div>
 </template>
